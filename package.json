@@ -1,0 +1,24 @@
+{
+  "name": "apk-update",
+  "version": "1.0.0",
+  "description": "This node script compresses an APK update and creates a manifest file with the version info next to it.",
+  "main": "apk-update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Jedich",
+  "license": "MIT",
+  "homepage": "https://github.com/kolbasa/apk-update",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolbasa/apk-update.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolbasa/apk-update/issues"
+  },
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "archiver-zip-encryptable": "^1.0.10",
+    "node-apk": "^1.1.0"
+  }
+}
